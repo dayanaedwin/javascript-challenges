@@ -18,7 +18,7 @@ function removeDuplicateFromUnsortedArrays(array) {
 //Method - 3 - using objects
 function removeDuplicateFromUnsortedArrays(array) {
     const unique = [];
-    const obj = [];
+    const obj = {};
     for (let value of array) {
         if (!obj[value]) {
             unique.push(value);
