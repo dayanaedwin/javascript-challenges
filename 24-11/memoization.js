@@ -1,3 +1,5 @@
+// Implement memoization for any operation;
+
 let map = new Map();
 
 const add = (a, b) => a + b;
