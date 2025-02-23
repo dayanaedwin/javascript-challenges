@@ -40,7 +40,7 @@ var findAnagrams = function(s, p) {
     
     for(let i=0; i<pLen; i++) {
       pCount[p.charCodeAt(i) - 97]++;
-      sCount[p.charCodeAt(i) - 97]++;
+      sCount[s.charCodeAt(i) - 97]++;
     }
     if(pCount.toString() === sCount.toString()) res.push(0);
     
