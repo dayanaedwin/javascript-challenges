@@ -9,7 +9,6 @@ function maxConsecutiveOnes(arr) {
                 longestCount = count;
             }
         } else {
-
             count = 0;
         }
     }

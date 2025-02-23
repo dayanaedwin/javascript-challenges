@@ -10,12 +10,11 @@ var isPalindrome = function (x) {
     if (x < 0) return false;
 
     let rem = x;
-    let temp = 0, i = 1;
+    let temp = 0;
 
     while (rem !== 0) {
         temp = (temp * 10) + (rem % 10);
         rem = parseInt(rem / 10);
-        i++;
     }
     return temp === x;
 };
