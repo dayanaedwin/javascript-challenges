@@ -3,10 +3,7 @@
     Lodash polyfill
 */
 
-function chunk(arr, length) {
-    if (!length) {
-        length = 1;
-    }
+function chunk(arr, length = 1) {
     if (length < 1 || !Array.isArray(arr) || arr.length == 0) {
         return [];
     }
